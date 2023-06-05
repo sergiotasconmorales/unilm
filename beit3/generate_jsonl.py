@@ -6,5 +6,5 @@ tokenizer = XLMRobertaTokenizer("/storage/workspaces/artorg_aimi/ws_00000/sergio
 VQAv2Dataset.make_dataset_index(
     data_path="/storage/workspaces/artorg_aimi/ws_00000/sergio/coco",
     tokenizer=tokenizer,
-    annotation_data_path="/storage/workspaces/artorg_aimi/ws_00000/sergio/coco/introspect",
+    annotation_data_path="/storage/workspaces/artorg_aimi/ws_00000/sergio/coco/vqa",
 )
