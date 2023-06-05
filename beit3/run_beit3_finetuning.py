@@ -224,7 +224,7 @@ def main(args, ds_init):
         args.task_cache_path = args.output_dir
 
     print(args)
-
+    torch.cuda.set_device(args.local_rank)
     device = torch.device(args.device)
 
     # fix the seed for reproducibility
